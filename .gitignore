@@ -1,0 +1,47 @@
+# ESP32 / Arduino
+*.elf
+*.bin
+*.hex
+
+# Flutter
+flutter_app/.dart_tool/
+flutter_app/.flutter-plugins
+flutter_app/.flutter-plugins-dependencies
+flutter_app/.packages
+flutter_app/build/
+flutter_app/.pub-cache/
+flutter_app/.pub/
+flutter_app/ios/Pods/
+flutter_app/ios/.symlinks/
+flutter_app/ios/Flutter/Flutter.framework
+flutter_app/ios/Flutter/Flutter.podspec
+flutter_app/android/.gradle/
+flutter_app/android/captures/
+flutter_app/android/gradlew
+flutter_app/android/gradlew.bat
+flutter_app/android/local.properties
+flutter_app/android/key.properties
+flutter_app/.idea/
+flutter_app/*.iml
+
+# Firebase Configuration (IMPORTANT: Keep these private!)
+flutter_app/android/app/google-services.json
+flutter_app/ios/Runner/GoogleService-Info.plist
+firebase-debug.log
+.firebase/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+*.bak
