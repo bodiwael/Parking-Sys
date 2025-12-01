@@ -31,34 +31,35 @@ class ParkingSlotCard extends StatelessWidget {
         ],
       ),
       child: Padding(
-        padding: const EdgeInsets.all(20.0),
+        padding: const EdgeInsets.all(16.0),
         child: Column(
+          mainAxisSize: MainAxisSize.min,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             // Icon
             Icon(
               slot.isAvailable ? Icons.local_parking : Icons.directions_car,
-              size: 48,
+              size: 36,
               color: Colors.white,
             ),
-            const SizedBox(height: 12),
+            const SizedBox(height: 8),
 
             // Slot Name
             Text(
               slot.name,
               style: const TextStyle(
-                fontSize: 20,
+                fontSize: 18,
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
               ),
             ),
-            const SizedBox(height: 8),
+            const SizedBox(height: 6),
 
             // Status
             Container(
               padding: const EdgeInsets.symmetric(
-                horizontal: 16,
-                vertical: 6,
+                horizontal: 12,
+                vertical: 4,
               ),
               decoration: BoxDecoration(
                 color: Colors.white.withOpacity(0.3),
@@ -67,10 +68,10 @@ class ParkingSlotCard extends StatelessWidget {
               child: Text(
                 slot.isAvailable ? 'AVAILABLE' : 'OCCUPIED',
                 style: const TextStyle(
-                  fontSize: 12,
+                  fontSize: 10,
                   fontWeight: FontWeight.w600,
                   color: Colors.white,
-                  letterSpacing: 1.2,
+                  letterSpacing: 1.0,
                 ),
               ),
             ),
