@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:translateX="27"
+        android:translateY="27">
+        <!-- P letter for Parking -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M30,20 L30,88 L42,88 L42,62 L58,62 C70,62 78,54 78,41 C78,28 70,20 58,20 Z M42,32 L56,32 C62,32 66,36 66,41 C66,46 62,50 56,50 L42,50 Z" />
+    </group>
+</vector>
